@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Networking Project</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="index.html#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+
+        <section class="intro">
+            <h1 class="section__title section__title--intro">
+                Course Project <strong> Clima App</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro"> Networking & CoreLocation</p>
+            <img src="img/ClimaLogo.png" alt="" class="intro__img">
+        </section>
+        <img src="img/ClimaApp.png" class="portfolio-item-image" alt="">
+        <div class="portfolio-item-individual">
+            <br>
+            <p>The Clima app's primary function is to provide users with current weather information for any city they search for, as well as their current location. The app's sleek and intuitive user interface is designed to display current temperature, weather condition, and location name.</p>
+            <p>The use of the delegate design pattern and Swift protocols allows for seamless communication between various app components, ensuring that data is retrieved and displayed accurately and efficiently. Networking and JSON parsing are used to retrieve weather data from the OpenWeatherAPI, which is then displayed in the app.</p>
+            <p>The use of Core Location allows the Clima app to obtain the user's current location and display the corresponding weather information. The app also allows users to search for the weather in any city they choose.</p>
+            <p>The dark mode feature allows users to switch to a darker color scheme for comfortable use in low-light environments. This feature enhances the user experience and adds an additional layer of usability to the app.</p>
+            <br>
+            <a href="https://github.com/joacotome24/ClimaApp.git" target="_blank" class="btn">Project on Github</a>
+            <a href="index.html#work" id="special_button" class="btn2">Back to Portfolio</a>
+        </div>
+        
+        <footer class="footer">
+            <a href="mailto:joaco.tome@gmail.com" class="footer__link">joaco.tome@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/joaco_tome/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/joacotome24">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" target="_blank" href="https://www.linkedin.com/in/joaquin-tome/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
